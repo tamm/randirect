@@ -8,7 +8,7 @@ var config = {
     port: 80,
     theme: 'hackers',
     pathToList: function () {
-        return 'themes/' + this.theme + '.json';
+        return __dirname + 'themes/' + this.theme + '.json';
     },
     urlList: function () {
         return JSON.parse(fs.readFileSync(config.pathToList()));

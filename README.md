@@ -3,6 +3,7 @@ Randomly redirects visitor to a url from list
 
 # Install
 clone repository to any server
+
 run npm install
 
 # Config
